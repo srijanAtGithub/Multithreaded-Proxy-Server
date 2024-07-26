@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\srija\\Downloads\\jar_files\\commons-io-2.16.1.jar",
+        "c:\\Users\\srija\\Downloads\\jar_files\\jedis-4.4.8.jar"
+    ]
+}
