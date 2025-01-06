@@ -1,18 +1,9 @@
-## Getting Started
+I developed a sophisticated proxy server system designed to efficiently manage multiple concurrent HTTP client requests. 
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+The architecture employed semaphore locks and a custom HTTP parser to effectively control request handling. 
 
-## Folder Structure
+To optimize performance and prevent race conditions, I implemented a caching system using a combination of LRU (Least Recently Used) caching strategy, Redis for data storage, and linked list data structures, all working seamlessly in a multithreaded environment. 
 
-The workspace contains two folders by default, where:
+The system successfully achieved parallel processing of client requests on multiprocessor systems, demonstrating robust concurrency handling. 
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+This project significantly enhanced my expertise in Java development, computer networking principles, socket programming, multithreading concepts, and Redis implementation, while providing practical experience in building high-performance distributed systems.
